@@ -54,7 +54,7 @@
                 }
             }
             label=(false!==icon)?'<i class="fa '+icon+'"></i>':label;
-            return '<button type="button" style="position:relative;top:-38px" class="input-file-upload-btn float-right btn '+style+'">'+label+'</button>';
+            return '<button type="button" class="input-file-upload-btn float-right btn '+style+'">'+label+'</button>';
         }
     };
 }(jQuery));
