@@ -16,7 +16,7 @@
         {
             var button=__buildButton(settings);
             var placeholder=settings.placeholder;
-            $element.css({opacity:0,width:0,height:0,position:'absolute',left:'-1000px'}).after('<div class="input-file-holder"><div class="input-file"><input type="text" readonly placeholder='+placeholder+' class="form-control float-left">'+button+'</div></div>');
+            $element.css({opacity:0,width:0,height:0,position:'absolute',left:'-1000px'}).after('<div class="input-file-holder"><div class="input-file"><input type="text" readonly placeholder="'+placeholder+'" class="form-control float-left">'+button+'</div></div>');
             $element.next('.input-file-holder').find('input[type=text]').on('change',function(){
                 $element.trigger('click');
             });
