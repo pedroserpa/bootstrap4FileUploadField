@@ -5,6 +5,7 @@
             var settings=$.extend({
                 style:'primary',
                 label:'File',
+                placeholder:'',
                 icon:false
             },options),
             $element=$(this);
@@ -14,7 +15,8 @@
         function __init($element,settings)
         {
             var button=__buildButton(settings);
-            $element.css({opacity:0,width:0,height:0,position:'absolute',left:'-1000px'}).after('<div class="input-file-holder"><div class="input-file"><input type="text" class="form-control float-left">'+button+'</div></div>');
+            var placeholder=settings.placeholder;
+            $element.css({opacity:0,width:0,height:0,position:'absolute',left:'-1000px'}).after('<div class="input-file-holder"><div class="input-file"><input type="text" readonly placeholder='+placeholder+' class="form-control float-left">'+button+'</div></div>');
             $element.next('.input-file-holder').find('input[type=text]').on('change',function(){
                 $element.trigger('click');
             });
