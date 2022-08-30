@@ -8,4 +8,4 @@
 4.2 icon:'fa-file', 'fa-image' or any other font-awesome icons
 
 DEMO:
-http://pedroserpa.com/bootstrap4FileUploadField/
+<a href="http://pedroserpa.com/bootstrap4FileUploadField/" target="_blank">http://pedroserpa.com/bootstrap4FileUploadField/</a>
