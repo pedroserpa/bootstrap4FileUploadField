@@ -6,3 +6,6 @@
 4.1 style:'primary', 'warning', 'info', 'success', 'dark' and 'light' for the button
 4.2 label: 'File' or 'Choose File' or whatever you like
 4.2 icon:'fa-file', 'fa-image' or any other font-awesome icons
+
+DEMO:
+http://pedroserpa.com/bootstrap4FileUploadField/
